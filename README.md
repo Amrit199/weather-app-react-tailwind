@@ -9,8 +9,7 @@ In this project, you can find out weather forcast of any cities and countries. G
 
 ### Start and Setup
 
-npm install
-npm start
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### npm install
+#### npm start
+#### Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
