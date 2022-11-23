@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Today = ({data}) => {
-  console.log(data)
   return (
     <div className="w-full p-4 md:flex">
       <div className="w-full mx-auto p-4 bg-white/90 md:flex items-center justify-between h-auto">

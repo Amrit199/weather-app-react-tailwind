@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { WEATHER_API_URL, WEATHER_API_KEY, GEO_API_URL, geoApiOptions } from "./api";
+import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import Today from "./components/Today";
 import Forecast from "./components/Forecast";
 import './App.css'
@@ -21,7 +21,6 @@ function App() {
 
     Promise.all([currentWeatherFetch, forecastFetch])
       .then(async (response) => {
-        console.log(response);
         const weatherResponse = await response[0].json();
         const forcastResponse = await response[1].json();
 

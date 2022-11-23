@@ -11,7 +11,6 @@ const Searchbar = ({ onSearchChange }) => {
       geoApiOptions
     );
     const response_1 = await response.json();
-    console.log(response_1.data)
     return {
       options: response_1.data.map((city) => {
         return {
@@ -22,8 +21,6 @@ const Searchbar = ({ onSearchChange }) => {
     };
   };
 
-  console.log(search)
-
   const handleOnChange = (searchData) => {
     setSearch(searchData);
     onSearchChange(searchData);
@@ -33,11 +30,12 @@ const Searchbar = ({ onSearchChange }) => {
     <div className="w-full flex items-center justify-between bg-black text-white p-5">
       <div className="flex items-center w-full justify-center">
         <img src="icons/13d.png" alt="" className="w-10" />
-        <p>Today Weather</p>
+        <p className="text-2xl">Today's Weather</p>
       </div>
       <div className="w-full">
         <AsyncPaginate
           placeholder="Search for city"
+          onFocus={() => setSearch('')}
           debounceTimeout={600}
           value={search}
           onChange={handleOnChange}
