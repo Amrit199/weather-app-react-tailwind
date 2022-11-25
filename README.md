@@ -1,5 +1,6 @@
 # Today's Weather
-## Live Demo https://weather-app-react-tailwind-lf9w.vercel.app/
+## <a href="https://weather-app-react-tailwind-lf9w.vercel.app/" className="underline underline-offset-4 hover:decoration-red-400">Live Demo</a>
+Live Demo 
 
 ![Untitled](https://user-images.githubusercontent.com/44949877/199717578-5fe2a63e-7b02-4660-9a05-a3b9ac82248a.png)
 
