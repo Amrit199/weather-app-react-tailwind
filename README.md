@@ -6,7 +6,7 @@ Live Demo
 
 ## Introduction
 
-In this project, you can find out weather forcast of any cities and countries. GEO DB and OpenWeather APIs were implemented to navigate the location and weather's data. "Tailwind CSS" helps to style this project. 
+This is a weather forecast app where you can find current weather details and weather forcast of any places. To get the city's details GeoDB from Rapid API was implemented and fetch with OpenWeather API to get the weather's data. Tailwind CSS use to styling and responsive layout. 
 
 ### Start and Setup
 
