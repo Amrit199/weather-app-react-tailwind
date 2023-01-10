@@ -9,7 +9,7 @@ const Today = ({data}) => {
         {/* right weather icon section */}
         <div className="w-full">
           <div>
-            <h2>CURRENT WEATHER</h2>
+            <h2 className='font-bold text-2xl'>CURRENT WEATHER</h2>
             {data.name && <p className="font-bold text-xl">{data.name}</p>}
             {/* <p className="font-bold">{data.city}</p> */}
           </div>

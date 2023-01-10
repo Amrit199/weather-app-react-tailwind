@@ -57,7 +57,7 @@ function App() {
   return (
     <div>
       <Searchbar onSearchChange={handleOnSearchChange} />
-      <div className="w-full h-screen md:flex items-center justify-between gap-4">
+      <div className="w-full h-screen md:flex items-center justify-between md:gap-4">
         {currentWeather && <Today data={currentWeather} />}
         {forecast && <Forecast data={forecast} />}
       </div>
